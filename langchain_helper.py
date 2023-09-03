@@ -4,7 +4,7 @@ from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
 
 import os
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'sk-aIMdHPSLLG9AEsGuRsGRT3BlbkFJgNm1ZVBWbEc3wx'
 
 llm = OpenAI(temperature=0.7)
 
